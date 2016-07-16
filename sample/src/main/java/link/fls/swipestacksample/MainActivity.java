@@ -153,14 +153,15 @@ public class MainActivity extends AppCompatActivity implements SwipeStack.SwipeS
             return position;
         }
 
+
         @Override
         public View getView(final int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
                 convertView = getLayoutInflater().inflate(R.layout.card, parent, false);
             }
-
+/*
             TextView textViewCard = (TextView) convertView.findViewById(R.id.textViewCard);
-            textViewCard.setText(mData.get(position));
+            textViewCard.setText(mData.get(position));*/
 
             return convertView;
         }
